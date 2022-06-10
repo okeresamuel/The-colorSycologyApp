@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Patrick+Hand&family=Roboto:ital,wght@0,300;1,300&display=swap');
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: url("https://static.videezy.com/system/resources/thumbnails/000/052/592/small/75.jpg")
+    no-repeat center fixed;
+  background-size: cover;
+  filter: blur(7deg);
+  font-family: 'Poppins', sans-serif;
+}
+
+#colorBox {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width:100%;
+  max-width: 37em;
+}
+.cp_red {
+  background-color: red;
+}
+.cp_white {
+  background-color: white;
+}
+.cp_blue {
+  background-color: blue;
+}
+.cp_pink {
+  background-color: hotpink;
+}
+.cp_Brown {
+  background-color: brown;
+}
+.cp_grey {
+  background-color: grey;
+  color:white;
+}
+.cp_black {
+  background-color: black;
+  color: white;
+}
+.cp_orange {
+  background-color: Orange;
+}
+.cp_green {
+  background-color: green;
+}
+.cp_purple {
+  background-color: purple;
+}
+.cp_yellow {
+  background-color: yellow;
+}
+.cp_Navy{
+    background-color: #060343;
+    color:white;
+}
+.cp_Beige{
+  background-color: #c7a670;
+  color: rgb(255, 255, 255);
+}
+.cp_Indigo{
+  background-color: #5a0bc6;
+  color: white;
+}
+.cp_Amber{
+  background-color: #fabb00;
+  color: rgb(22, 21, 21);
+}
+.cp_Burgundy{
+  background-color: #641324;
+  color:white;
+}
+.cp_silver{
+  background-color: #b3b4b6;
+  color:white;
+}
+.cp_Teal{
+  background-color: #049fa3;
+  color:white;
+}
+.cp_Violet{
+  background-color: #821ecc;
+  color:white;
+}
+.cp_Torquoise{
+  background-color:#08bfc7;
+  color:white;
+}
+.Stylebtn {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin:5px;
+}
+.Scale{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 300ms;
+}
+
+#buttonInfo{
+  width:15em;
+  height:200px;
+  margin: 0px auto;
+  border-radius:7px;
+  padding:0px 10px 20px 10px;
+}
+
